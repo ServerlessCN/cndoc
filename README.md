@@ -3,10 +3,30 @@ title: Serverless Framework 文档
 menuText: Serverless Framework 文档
 layout: Doc
 menuItems:
-  - {menuText: "快速开始", path: /framework/docs/getting-started/}
-  - {menuText: "支持者CLI", path: /framework/docs/providers}
-  - {menuText: "- 腾讯云" , path: /framework/docs/providers/tencent/}
-  - {menuText: "案例实战", path: https://serverless.com/examples/}
+  - {menuText: "Get Started", path: /framework/docs/getting-started/}
+  - {menuText: "Dashboard Reference", path: /framework/docs/dashboard/}
+  - {menuText: "- Insights", path: /framework/docs/dashboard/insights/}
+  - {menuText: "- Notifications", path: /framework/docs/dashboard/notifications/}
+  - {menuText: "- Output Variables", path: /framework/docs/dashboard/output-variables/}
+  - {menuText: "- Secrets", path: /framework/docs/dashboard/secrets/}
+  - {menuText: "- Safeguards", path: /framework/docs/dashboard/safeguards/}
+  - {menuText: "- Access Roles", path: /framework/docs/dashboard/access-roles/}
+  - {menuText: "- Profiles", path: /framework/docs/dashboard/profiles/}
+  - {menuText: "- Pipelines", path: /framework/docs/dashboard/pipelines/}
+  - {menuText: "Provider CLI References", path: /framework/docs/providers}
+  - {menuText: "- AWS", path: /framework/docs/providers/aws/}
+  - {menuText: "- Azure", path: /framework/docs/providers/azure/}
+  - {menuText: "- fn", path: /framework/docs/providers/fn/}
+  - {menuText: "- Google", path: /framework/docs/providers/google/}
+  - {menuText: "- OpenWhisk", path: /framework/docs/providers/openwhisk/}
+  - {menuText: "- Kubeless" , path: /framework/docs/providers/kubeless/}
+  - {menuText: "- Knative" , path: /framework/docs/providers/knative/}
+  - {menuText: "- Spotinst" , path: /framework/docs/providers/spotinst/}
+  - {menuText: "- Cloudflare" , path: /framework/docs/providers/cloudflare/}
+  - {menuText: "- Alibaba Cloud" , path: /framework/docs/providers/aliyun/}
+  - {menuText: "- Tencent Cloud" , path: /framework/docs/providers/tencent/}
+  - {menuText: "Examples", path: https://serverless.com/examples/}
+  - {menuText: "Tutorials", path: https://serverless.com/blog/category/guides-and-tutorials/}
 -->
 
 <!-- DOCS-SITE-LINK:START automatically generated  -->
