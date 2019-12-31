@@ -1,109 +1,75 @@
 <!--
-title: Serverless - CLI 命令行工具
-menuText: CLI 命令行工具
+title: Tencent Cloud - Serverless Cloud Function (SCF) Documentation
+menuText: Tencent
+menuOrder: 3
 layout: Doc
 -->
 
 <!-- DOCS-SITE-LINK:START automatically generated  -->
 
-### [Read this on the main serverless docs site](https://www.serverless.com/framework/docs/providers/)
+### [Read this on the main serverless docs site](https://www.serverless.com/framework/docs/providers/tencent/)
 
 <!-- DOCS-SITE-LINK:END -->
 
-# Serverless Infrastructure Providers
+# Tencent Provider Documentation
 
-提供多种CLI框架选择
+**Note:** [Tencent Cloud AccessKeys](./guide/credentials.md) are required for using the CLI.
 
-<div class="providersSections">
-  <a href="./aws/">
-  <div class="providerSection">
-    <div class="providerSectionHeader">
-        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/docs/aws-logo.svg" width="250" draggable="false" class='aws-logo' />
+<div class="docsSections">
+  <div class="docsSection">
+    <div class="docsSectionSubHeader">
+      <h4>Guides</h4>
+    </div>
+    <div class="docsProviderItems">
+      <ul>
+        <li><a href="./guide/intro.md">Intro</a></li>
+        <li><a href="./guide/installation.md">Installation</a></li>
+        <li><a href="./guide/quick-start.md">Quickstart</a></li>
+        <li><a href="./guide/credentials.md">Credentials</a></li>
+        <li><a href="./guide/services.md">Services</a></li>
+        <li><a href="./guide/functions.md">Functions</a></li>
+        <li><a href="./guide/events.md">Events</a></li>
+        <li><a href="./guide/deploying.md">Deploying</a></li>
+        <li><a href="./guide/variables.md">Variables</a></li>
+        <li><a href="./guide/packaging.md">Packaging</a></li>
+        <li><a href="./guide/plugins.md">Plugins</a></li>
+        <li><a href="./guide/workflow.md">Workflow</a></li>
+      </ul>
     </div>
   </div>
-  </a>
-  <a href="./azure/">
-  <div class="providerSection">
-    <div class="providerSectionHeader">
-        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/docs/azure-logo.svg" width="250" draggable="false" class='azure-logo'/>
-    </div>
-  </div>
-  </a>
-  <a href="./tencent/">
-  <div class="providerSection">
-    <div class="providerSectionHeader">
-        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/docs/tencent-cloud-logo.png" width="250" draggable="false" class='tencent-logo'/>
-    </div>
-  </div>
-  </a>
-  <a href="./google/">
-  <div class="providerSection">
-    <div class="providerSectionHeader">
-        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/docs/google-logo.png" width="250" draggable="false" class='google-logo'/>
-    </div>
-  </div>
-  </a>
-  <a href="./knative/">
-  <div class="providerSection">
-    <div class="providerSectionHeader">
-        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/docs/knative-logo.svg" width="250" draggable="false" class='knative-logo'/>
-    </div>
-  </div>
-  </a>
-  <a href="./aliyun/">
-  <div class="providerSection">
-    <div class="providerSectionHeader">
-        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/docs/alibaba-cloud-logo-gray.png" width="250" draggable="false" class='aliyun-logo'/>
-    </div>
-  </div>
-  </a>
-  <a href="./cloudflare/">
-  <div class="providerSection">
-    <div class="providerSectionHeader">
-        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/docs/cloudflare-logo.svg" width="250" draggable="false" class='cloudflare-logo'/>
-    </div>
-  </div>
-  </a>
-  <a href="./fn/">
-  <div class="providerSection">
-    <div class="providerSectionHeader">
-        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/docs/fn-logo.svg" width="250" draggable="false" class='fn-logo'/>
-    </div>
-  </div>
-  </a>
-  <a href="./kubeless/">
-  <div class="providerSection">
-    <div class="providerSectionHeader">
-        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/docs/kubeless-logo.svg" width="250" draggable="false" class='kubeless-logo'/>
-    </div>
-  </div>
-  </a>
-  <a href="./openwhisk/">
-  <div class="providerSection">
-    <div class="providerSectionHeader">
-        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/docs/openwhisk-logo.svg" width="250" draggable="false" class='openwhisk-logo'/>
-    </div>
-  </div>
-  </a>
-  <a href="./spotinst/">
-  <div class="providerSection">
-    <div class="providerSectionHeader">
-        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/docs/spotinst-logo.svg" width="250" draggable="false" class='spotinst-logo'/>
-    </div>
-  </div>
-  </a>
-</div>
-<br/>
-<br/>
 
-## Connecting your provider
+  <div class="docsSection">
+    <div class="docsSectionSubHeader">
+      <h4>CLI references</h4>
+    </div>
+    <div class="docsProviderItems">
+      <ul>
+        <li><a href="./cli-reference/create.md">Create</a></li>
+        <li><a href="./cli-reference/install.md">Install</a></li>
+        <li><a href="./cli-reference/deploy.md">Deploy</a></li>
+        <li><a href="./cli-reference/deploy-function.md">Deploy Function</a></li>
+        <li><a href="./cli-reference/deploy-list.md">Deploy List</a></li>
+        <li><a href="./cli-reference/invoke.md">Invoke</a></li>
+        <li><a href="./cli-reference/logs.md">Logs</a></li>
+        <li><a href="./cli-reference/metrics.md">Metrics</a></li>
+        <li><a href="./cli-reference/info.md">Info</a></li>
+        <li><a href="./cli-reference/rollback.md">Rollback</a></li>
+        <li><a href="./cli-reference/remove.md">Remove</a></li>
+      </ul>
+    </div>
+  </div>
 
-To deploy functions, specify your provider in your service's `serverless.yml` file under the `provider` key and make sure your provider credentials are setup on your machine or CI/CD system.
-
-```yml
-# serverless.yml
-service: my-service-name
-
-provider:
-  name: aws
-```
+  <div class="docsSection">
+    <div class="docsSectionSubHeader">
+      <h4>Events</h4>
+    </div>
+    <div class="docsProviderItems">
+      <ul>
+        <li><a href="./events/apigateway.md">API Gateway</a></li>
+        <li><a href="./events/cloud-kafka.md">Cloud Kafka</a></li>
+        <li><a href="./events/cmq.md">Cloud Message Queue</a></li>
+        <li><a href="./events/cos.md">Cloud Object Storage</a></li>
+        <li><a href="./events/timer.md">Timer</a></li>
+      </ul>
+    </div>
+  </div>
