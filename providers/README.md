@@ -13,5 +13,15 @@ layout: Doc
 # Serverless Infrastructure Providers
 
 提供多种CLI框架选择
+
+<div class="providersSections">
+  <a href="./tencent/">
+  <div class="providerSection">
+    <div class="providerSectionHeader">
+        <img src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/docs/tencent-cloud-logo.png" width="250" draggable="false" class='tencent-logo'/>
+    </div>
+  </div>
+  </a>
+</div>
 <br/>
 <br/>
